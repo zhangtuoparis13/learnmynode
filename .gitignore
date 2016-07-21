@@ -39,5 +39,4 @@ jspm_packages
 .node_repl_history
 .gitignore
 .idea/
-invoquer_mymodule_filtered.js
-mymodule_filtered.js
+
