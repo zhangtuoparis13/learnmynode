@@ -22,10 +22,17 @@ var filterExtension = process.argv[3];
     })
 }*/
 
-var callback = (err, list) => {
+/*var callback = (err, list) => {
     "use strict";
     if (err) throw err;
     list.forEach(file => console.log(file))
 };
+mymodule(dir, filterExtension, callback);*/
 
-mymodule(dir, filterExtension, callback);
+mymodule(dir,filterExtension, function (err, list) {
+    if (err)
+        return console.error('There was an error', err);
+    list.forEach(function (file) {
+        console.log(file)
+    })
+});
