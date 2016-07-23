@@ -59,4 +59,4 @@ httpGet = (index)=> {
     })
 };
 
-for (let  i = 0; i<3; i++) httpGet(i)
+for (let i = 0; i < 3; i++) httpGet(i)
