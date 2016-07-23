@@ -1,0 +1,12 @@
+{
+  "name": "application-nodeSchool",
+  "version": "0.0.1",
+  "description": "this is the tutorial of the learnyounode in nodejs School",
+  "dependencies": {
+    "bl": "^1.1.2",
+    "concat-stream": "^1.5.1",
+    "strftime": "^0.9.2"
+  },
+  "repository": {},
+  "license": "MIT"
+}
