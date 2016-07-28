@@ -23,7 +23,8 @@ var mymodule_f = function (directory, extension, callback) {
         if (err) return callback(err);
         else {
             list = list.filter(function (file) {
-                if(path.extname(file) === '.' + extension) return true;
+                if(path.extname(file) === '.' + extension)
+                    return true;
             });
             return callback(null, list);
         }
